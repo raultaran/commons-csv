@@ -311,7 +311,7 @@ CSV files of various types.
         <artifactId>apache-rat-plugin</artifactId>
         <version>${commons.rat.version}</version>
         <!-- Should agree with config in build section -->
-        <configuration>
+        <!--configuration>
           <excludes>
             <exclude>src/test/resources/CSVFileParser/bom.csv</exclude>
             <exclude>src/test/resources/CSVFileParser/test.csv</exclude>
@@ -325,7 +325,7 @@ CSV files of various types.
             <exclude>src/test/resources/ferc.gov/contract.txt</exclude>
             <exclude>src/test/resources/ferc.gov/transaction.txt</exclude>
           </excludes>
-        </configuration>
+        </configuration-->
       </plugin>
     </plugins>
   </reporting>
